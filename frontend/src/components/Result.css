@@ -1,0 +1,142 @@
+/* Result.css */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f6f8;
+  margin: 0;
+  padding: 0;
+}
+
+.result-container {
+  max-width: 900px;
+  margin: 40px auto;
+  background-color: #ffffff;
+  padding: 30px 40px;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.result-container h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Summary cards */
+.summary {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+
+.summary div {
+  flex: 1;
+  margin: 0 10px;
+  padding: 20px 30px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #e9f5ff;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.summary div h2 {
+  margin: 0;
+  color: #007bff;
+}
+
+.winner-summary h2 {
+  color: #28a745;
+}
+
+.summary div p {
+  margin: 5px 0 0;
+  font-weight: bold;
+}
+
+/* Table styles */
+.result-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.result-table th, .result-table td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+
+.result-table th {
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px 5px 0 0;
+}
+
+.result-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.result-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Highlight winner row */
+.result-table .winner-row {
+  background-color: #d4edda; /* light green */
+  font-weight: bold;
+}
+
+/* Pie chart container */
+.bar-chart {
+  margin-top: 40px;
+}
+
+/* Winner text */
+.winner {
+  color: #28a745;
+  font-weight: bold;
+}
+
+
+/* Top 3 parties container */
+.top3-container {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+
+.top3-card {
+  flex: 1;
+  margin: 0 10px;
+  background-color: #fff3cd; /* light yellow */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.top3-card:hover {
+  transform: translateY(-5px);
+}
+
+.top3-card h3 {
+  margin: 0 0 10px 0;
+  color: #856404; /* dark yellow */
+}
+
+.top3-card p {
+  margin: 5px 0;
+  font-weight: bold;
+}
+
+
+
+/* Pie Chart Size Fix */
+.pie-chart {
+  width: 320px;         /* size of chart */
+  height: 320px;
+  margin: 30px auto;    /* center it */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

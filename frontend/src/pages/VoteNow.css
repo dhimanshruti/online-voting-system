@@ -1,0 +1,59 @@
+.vote-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.candidate-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.candidate-card {
+  width: 260px;
+  background: white;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.vote-btn {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background: royalblue;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.vote-btn:hover {
+  background: dodgerblue;
+}
+
+
+
+/* Highlight NEW candidate */
+.highlight {
+  transform: scale(1.08);
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 0 20px rgba(0, 128, 255, 0.7);
+  z-index: 5;
+}
+
+
+
+/* POP OUT effect ONLY for newest candidate */
+.highlight {
+  transform: scale(1.10);
+  transition: all 0.25s ease-in-out;
+  box-shadow: 0 0 25px rgba(0, 123, 255, 0.7);
+  border: 2px solid #007bff;
+}
+
+
+/* Optional hover effect */
+.candidate-card:hover {
+  transform: scale(1.03);
+}

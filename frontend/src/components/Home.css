@@ -1,0 +1,321 @@
+/* GENERAL */
+.home-container {
+  padding: 40px 20px;
+  background: #f9f9f9;
+  font-family: "Poppins", sans-serif;
+}
+
+/* HERO SECTION */
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  margin: 0 auto 50px auto;
+  max-width: 1200px;
+  background: transparent;
+}
+
+.hero-video-wrapper {
+  flex: 1;
+  text-align: center;
+}
+
+.hero-video {
+  width: 100%;
+  max-width: 420px;
+  border-radius: 12px;
+}
+
+.hero-text {
+  flex: 1;
+}
+
+.hero-text h1 {
+  font-size: 38px;
+  font-weight: 700;
+  color: #00206b;
+}
+
+.hero-text p {
+  font-size: 18px;
+  color: #444;
+  margin: 15px 0 25px 0;
+}
+
+.hero-btn {
+  padding: 14px 35px;
+  font-size: 18px;
+  background: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+/* ACTION BUTTONS */
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.primary-btn {
+  padding: 14px 30px;
+  background: #007bff;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* STATS */
+.stats-section {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 50px;
+}
+
+.stat-card {
+  background: white;
+  padding: 20px 30px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+/* INFO SECTIONS */
+.info-section {
+  background: white;
+  padding: 25px 30px;
+  border-radius: 12px;
+  max-width: 800px;
+  margin: 0 auto 40px auto;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.info-section.center {
+  text-align: center;
+}
+
+.info-section ul,
+.info-section ol {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+/* TESTIMONIAL AND REVIEW CARDS */
+.cards-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.testimonial-card,
+.review-card {
+  padding: 15px 20px;
+  background: #f1f1f1;
+  border-radius: 12px;
+  max-width: 250px;
+  text-align: center;
+}
+
+/* UPDATES */
+.updates-section {
+  max-width: 600px;
+  margin: 0 auto 50px auto;
+}
+
+/* FOOTER */
+.footer {
+  background: #007bff;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 12px;
+}
+
+
+
+
+
+/* SECTION BELOW GET STARTED */
+/* SECTION BELOW GET STARTED */
+.info-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  padding: 40px 20px;
+  max-width: 1100px;
+  margin: 40px auto;
+  background: transparent;
+  box-shadow: none;
+
+  flex-direction: row-reverse;  /* ← NEW: image on right, text on left */
+}
+
+
+
+.info-left img {
+  width: 360px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+
+.highlight-black {
+  color: #000000;
+  font-weight: 700;
+}
+
+
+.info-left img {
+  width: 350px;
+}
+
+.info-right {
+  flex: 1;
+}
+
+.info-title {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.highlight {
+  color: #1a73e8;
+}
+
+.info-list {
+  list-style: none;
+  padding: 0;
+}
+
+.info-list li {
+  margin-bottom: 18px;
+}
+
+.info-list p {
+  margin: 5px 0 0;
+  color: #444;
+}
+
+.learn-more {
+  display: inline-block;
+  margin-top: 10px;
+  color: #1a73e8;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+/* Responsive */
+@media (max-width: 850px) {
+  .info-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .info-left img {
+    width: 250px;
+  }
+}
+
+
+
+.learn-more-btn {
+  background: none;
+  border: none;
+  color: #1a73e8;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 0;
+}
+
+
+
+/* HOW TO VOTE SECTION */
+.howto-section {
+  max-width: 1000px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.howto-title {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+/* Card with hover effect */
+.howto-card {
+  background: white;
+  padding: 25px 30px;
+  border-radius: 15px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: left;
+}
+
+/* Hover effect */
+.howto-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.15);
+}
+
+.howto-card ol {
+  padding-left: 20px;
+}
+
+.howto-card li {
+  margin-bottom: 15px;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+/* STEPS 3-BOX SECTION */
+.steps-container {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin: 50px auto;
+  max-width: 1100px;
+  flex-wrap: wrap;
+}
+
+.step-box {
+  background: white;
+  width: 300px;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+}
+
+.step-box h3 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #1a73e8;
+  margin-bottom: 10px;
+}
+
+.step-box p {
+  font-size: 16px;
+  color: #444;
+}
+
+/* Hover Effect */
+.step-box:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.15);
+}
+
+
+
